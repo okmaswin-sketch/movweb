@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>CineVerse</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<h1 class="logo">
+🎬 CineVerse
+</h1>
+
+<input
+type="text"
+id="search"
+placeholder="Search Movies..."
+>
+
+</nav>
+
+<!-- GENRES -->
+
+<section class="genres">
+
+<button onclick="filterMovies('All')">
+All
+</button>
+
+<button onclick="filterMovies('Action')">
+Action
+</button>
+
+<button onclick="filterMovies('Horror')">
+Horror
+</button>
+
+<button onclick="filterMovies('Sci-Fi')">
+Sci-Fi
+</button>
+
+<button onclick="filterMovies('Anime')">
+Anime
+</button>
+
+</section>
+
+<!-- MOVIES -->
+
+<section
+class="movies"
+id="movie-container">
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
